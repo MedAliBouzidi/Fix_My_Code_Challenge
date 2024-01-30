@@ -13,7 +13,7 @@ class Square():
 
     def PermiterOfMySquare(self):
         """ permmiter of the square"""
-        return self.width * 4
+        return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
         """ String representation """
